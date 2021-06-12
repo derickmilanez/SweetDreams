@@ -1,0 +1,70 @@
+body{
+
+	background-image: url("arcoiris.jpg");
+}
+
+div {
+	background-color: #E36397;
+	border-radius: 10px;
+	width: 55%;
+	height: 55%;
+    margin:0% auto;
+}
+
+@font-face{
+	font-family:Letters;
+	src:local(Letters),url("C:/xampp/htdocs/web/Letters.ttf");
+}
+h1 {
+	font-family:Letters;
+ 	margin-top:3%;
+	color:#89023E;
+	text-align: center;
+} 
+
+form{
+    width: 80%;
+    height: 80%;
+    margin: -5% auto;
+    
+    
+}
+
+input{
+    font-size: 15px;
+    width: 22%;
+    height: 10%;
+    margin: 8px 0;
+    box-sizing: border-box
+}
+input[type=submit]{
+    width: 55%;
+    height: 16%;
+    margin: 5% 12%;
+}
+
+input[type=text]{
+    margin-left: 40px;
+
+}
+
+input[type=number]{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ol{
+    
+    float: right;
+    height: 80%;
+    width: 33%;
+    margin-right: 60px;
+    margin-top: -180px;
+}
+
+span{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color:whitesmoke;
+}
